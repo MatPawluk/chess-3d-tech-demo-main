@@ -1,0 +1,5 @@
+{
+  "name": "3D Chess Tech Demo",
+  "description": "Interactive 3D chessboard with camera rotation and gameplay. Uses React Three Fiber for 3D graphics and chess.js for game logic.",
+  "requestFramePermissions": []
+}
