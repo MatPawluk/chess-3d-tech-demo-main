@@ -67,8 +67,15 @@ function App() {
         </div>
       </div>
 
-      <div className="absolute bottom-4 left-4 pointer-events-none text-slate-500 text-xs">
-        Rendering: React Three Fiber • Logic: chess.js
+      <div className="absolute bottom-4 left-4 pointer-events-none text-slate-500 text-xs flex flex-col gap-1">
+        <a
+          href="https://pawlukstudio.pl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto hover:text-blue-400 transition-colors"
+        >
+          Made by PawlukStudio PS
+        </a>
       </div>
 
       {gameOver && <GameOverModal status={status} onReset={handleReset} />}
